@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+
+.scoreboard{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.scoreboard__name,
+.scoreboard__score{
+  padding: 10px
+}
+
+.scoreboard__name{
+  font-weight: bold;
+}
+
+.scoreboard__name--user{
+  color:darkcyan
+}
+
+.scoreboard__name--computer{
+  color:crimson
+}
+
+.scoreboard__score{
+  font-size: 1cm;
+}
