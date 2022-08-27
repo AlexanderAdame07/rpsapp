@@ -17,11 +17,11 @@ body{
   font-weight: bold;
 }
 
-.scoreboard__name--user{
+.scoreboard__name--playerOneName{
   color:darkcyan
 }
 
-.scoreboard__name--computer{
+.scoreboard__name--playerTwoName{
   color:crimson
 }
 
